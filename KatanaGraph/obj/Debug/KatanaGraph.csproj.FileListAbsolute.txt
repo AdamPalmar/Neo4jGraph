@@ -1,0 +1,16 @@
+C:\Users\Adam\RiderProjects\KatanaGraph\KatanaGraph\bin\Debug\KatanaGraph.exe
+C:\Users\Adam\RiderProjects\KatanaGraph\KatanaGraph\bin\Debug\KatanaGraph.pdb
+C:\Users\Adam\RiderProjects\KatanaGraph\KatanaGraph\bin\Debug\Neo4jClient.dll
+C:\Users\Adam\RiderProjects\KatanaGraph\KatanaGraph\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Adam\RiderProjects\KatanaGraph\KatanaGraph\bin\Debug\Neo4jClient.pdb
+C:\Users\Adam\RiderProjects\KatanaGraph\KatanaGraph\bin\Debug\Neo4jClient.xml
+C:\Users\Adam\RiderProjects\KatanaGraph\KatanaGraph\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Adam\RiderProjects\KatanaGraph\KatanaGraph\obj\Debug\KatanaGraph.csprojResolveAssemblyReference.cache
+C:\Users\Adam\RiderProjects\KatanaGraph\KatanaGraph\obj\Debug\KatanaGraph.exe
+C:\Users\Adam\RiderProjects\KatanaGraph\KatanaGraph\obj\Debug\KatanaGraph.pdb
+C:\Users\Adam\RiderProjects\KatanaGraph\KatanaGraph\bin\Debug\Neo4jClient.SchemaManager.dll
+C:\Users\Adam\RiderProjects\KatanaGraph\KatanaGraph\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Adam\RiderProjects\KatanaGraph\KatanaGraph\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Adam\RiderProjects\KatanaGraph\KatanaGraph\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Adam\RiderProjects\KatanaGraph\KatanaGraph\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Adam\RiderProjects\KatanaGraph\KatanaGraph\bin\Debug\KatanaGraph.exe.config
