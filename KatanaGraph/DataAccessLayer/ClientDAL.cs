@@ -87,6 +87,36 @@ namespace KatanaGraph
         }
 
 
+        public void CreateTopicNode(TopicType topicType)
+        {
+            graphClient.Cypher
+                .Create("(topic:Topic {topicDetails})")
+                .WithParam("topicDetails", topicType)
+                .ExecuteWithoutResultsAsync().Wait();
+        }
+
+        public void CreateWordNode(WordType wordType)
+        {
+            graphClient.Cypher
+                .Create("(word:Word {wordDetails})")
+                .WithParam("wordDetails", wordType)
+                .ExecuteWithoutResultsAsync().Wait();
+        }
+
+        public void CreateWordAssociatedToTopic(TopicType topicType, WordType wordType)
+        {
+            graphClient.Cypher
+                .Match("(topic:Topic)", "(word:Word)")
+                .Where((TopicType topic) => topic.uniqueId == topicType.uniqueId)
+                .AndWhere((WordType word) => word.uniqueId == wordType.uniqueId)
+                .Merge("(word)-[:ASSOCIATED_TO]->(topic)")
+                .WithParam("topic", topicType)
+                .WithParam("word", wordType)
+                .ExecuteWithoutResultsAsync().Wait();
+        }
+
+
+
 
     }
 }

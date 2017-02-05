@@ -36,4 +36,20 @@
         public string creationDate { get; set; }
         public string commitVersion { get; set; }
     }
+
+    public class TopicType
+    {
+        public string name { get; set; }
+        public string creationDate { get; set; }
+        public int uniqueId { get; set; }
+
+    }
+
+    public class WordType
+    {
+        public string name { get; set; }
+        public int timesMentioned { get; set; }
+        public int uniqueId { get; set; }
+    }
+
 }

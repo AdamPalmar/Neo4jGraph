@@ -24,7 +24,7 @@ namespace KatanaGraph
 
             //make sure Neo4J engine is running before opening the db
             //and that 'my password' is set by successfully navigating to the Uri
-            IGraphClient graphClient = new GraphClient(new Uri("http://localhost:7474/db/data"), "neo4j", "");
+            IGraphClient graphClient = new GraphClient(new Uri("http://localhost:7474/db/data"), "neo4j", "2F3gLA");
             try
             {
                 graphClient.Connect();
@@ -52,16 +52,18 @@ namespace KatanaGraph
             graphClient.DropAllIndexes();
 
 
-            /*graphClient.DropAllIndexes();*/
-
-            //CreateTestDB(graphClient);
-
-            TraverseProject("C:\\Users\\Adam\\Desktop\\Neo4j\\GraphDbExamples\\project\\katana-katana",clientDAL);
+            //This makes a graph of folder structure
+            //TraverseProject("C:\\Users\\Adam\\Desktop\\Neo4j\\GraphDbExamples\\project\\katana-katana",clientDAL);
 
             Console.WriteLine("\r\nPlease hit 'return' to exit");
             Console.ReadLine();
         }
 
+
+
+        private static void CreateTopicGraph(ClientDAL clientDal)
+        {
+        }
 
 
 
